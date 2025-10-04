@@ -1,11 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
-    --bg-color:white;
+    --bg-color:#f0f0f0;
     --text:#ec18b3;
     --primary:#251eab;
 
-    --active:#f6f6f7;
+    --active:#7f7f88;
     --active-dark:#65cf98;
     --normal:#11df6a;
 
