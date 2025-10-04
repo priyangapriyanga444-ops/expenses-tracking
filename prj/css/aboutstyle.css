@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --bg-color:#e0e0e0;
+    --text:#ec18b3;
+    --primary:#007bff;
+
+    --active:#4c4c4c;
+    --active-dark:#0a5165;
+    --normal:#edf0ee;
+
+}
+
+*{
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+
+    
+}
+a{
+    text-decoration: none;
+    color:var(--active-dark)
+    }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--active-dark);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: var(--bg-color);
+}
+.logo{
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--active-dark);
+    
+}
+.nav-links a.active{
+    color: var(--primary);
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    color: var(--active-dark);
+    
+}
+.nav-links li{
+    display: inline-block;
+    padding:0 10px;
+    color: var(--active-dark);
+}
+.action{
+    padding: 8px 25px;
+    background-color: var(--active-dark);
+    border-radius: 20px;
+    color: var(--normal);
+}
