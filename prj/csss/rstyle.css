@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 :root{
     --bg-color:#e0e0e0;
-    --text:#ec18b3;
-    --primary:#007bff;
+    --text:#90a10d;
+    --primary:#0b0c0b;
 
     --active:#4c4c4c;
     --active-dark:#0a5165;
     --normal:#edf0ee;
+    
+
+
 
 }
 
@@ -19,12 +22,12 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: var(--active-dark);
+    background: var(--bg-color);
     color: var(--normal);
 
 }
 .container{
-    background: var(--active);
+    background: var(--active-dark);
     width: 450px;
     padding: 1.5rem;
     margin: 50px auto;
@@ -56,18 +59,18 @@ input{
 }
 .input-group i{
     position: absolute;
-    color: var(--text);
+    color: var(--normal);
 }
 input:focus{
     outline: transparent;
     background-color: transparent;
-    border-bottom: 2px solid var(--text);
+    border-bottom: 2px solid var(--primary);
 }
 .input::placeholder{
     color: var(--normal);
 }
 label{
-    color:aqua;
+    color:var(--normal);
     position: relative;
     top: -1.3em;
     left: 1.2em;
@@ -76,19 +79,20 @@ label{
 }
 input:focus~label,input:not(:placeholder-shown)~label{
     top: -3em;
-    color:aquamarine;
+    color:rgb(26, 210, 219);
     font-size:15px;
 
 
 }
 .recover{
-    text-align: right;
+    text-align: center;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+
 
 }
 .recover a{
-    color:chartreuse;
+    color:var(--text);
     text-decoration: underline;
 
 
@@ -103,9 +107,10 @@ input:focus~label,input:not(:placeholder-shown)~label{
     border-radius: 5px;
     outline: none;
     width: 100%;
-    background: #ec18b3;
+    background:var(--normal);
     color: white;
     transition: 0.9S;
+    
 }
 .btn:hover{
     background: #007bff;
@@ -120,7 +125,7 @@ input:focus~label,input:not(:placeholder-shown)~label{
     text-align: center;
 }
 .icons i{
-    color:#13ec29;
+    color:var(--bg-color);
     padding: 0.8rem 1.5rem;
     border-radius: 10px;
     font-size: 1.rem;
@@ -128,15 +133,6 @@ input:focus~label,input:not(:placeholder-shown)~label{
     border: 2px solid paleturquoise;
     margin:  0px 15px;
     transition: 1s;
-    
-
-
-}
-.icons:hover{
-    background-color: black;
-    font-size: 1.6rem;
-    border: 2px solid rgba(0,0,0,0.1);
-
 }
 .links{
     display: flex;
