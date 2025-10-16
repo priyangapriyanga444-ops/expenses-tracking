@@ -87,9 +87,8 @@ input:focus~label,input:not(:placeholder-shown)~label{
 .recover{
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 3rem;
-
-
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .recover a{
     color:var(--text);
@@ -110,6 +109,7 @@ input:focus~label,input:not(:placeholder-shown)~label{
     background:var(--normal);
     color: white;
     transition: 0.9S;
+    margin-top: 20px;
     
 }
 .btn:hover{
