@@ -125,4 +125,18 @@ p {
     border-radius: 10px;
 
 }
+.footer {
+  text-align: center;
+  background-color: var(--active-dark);
+  color:var(--bg-color);
+  padding: 10px 0;
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+/* footer paragraph color for better contrast */
+.footer p {
+        color: #ffffff; /* use white so text is readable on dark footer */
+}
+
 
